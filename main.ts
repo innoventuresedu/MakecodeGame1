@@ -35,8 +35,8 @@ let mySprite = sprites.create(img`
 let mySprite2 = sprites.create(img`
     . . . . . . . . . . b 5 b . . . 
     . . . . . . . . . b 5 b . . . . 
-    . . . . . . b b b b b b . . . . 
-    . . . . . b b 5 5 5 5 5 b . . . 
+    . . 3 . . . b b b b b b . . . . 
+    . 3 3 3 . b b 5 5 5 5 5 b . . . 
     . . . . b b 5 d 1 f 5 5 d f . . 
     . . . . b 5 5 1 f f 5 d 4 c . . 
     . . . . b 5 5 d f b d d 4 4 . . 
