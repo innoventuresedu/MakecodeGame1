@@ -151,6 +151,7 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
         `)
     music.baDing.play()
 })
+let projectile2: Sprite = null
 let projectile: Sprite = null
 let mySprite = sprites.create(img`
     .............beebbbb............
@@ -207,21 +208,39 @@ let mySprite2 = sprites.create(img`
 controller.moveSprite(mySprite)
 game.onUpdateInterval(1000, function () {
     projectile = sprites.createProjectileFromSide(img`
-        . . . . . . . 6 . . . . . . . . 
-        . . . . . . 8 6 6 . . . 6 8 . . 
-        . . . e e e 8 8 6 6 . 6 7 8 . . 
-        . . e 2 2 2 2 e 8 6 6 7 6 . . . 
-        . e 2 2 4 4 2 7 7 7 7 7 8 6 . . 
-        . e 2 4 4 2 6 7 7 7 6 7 6 8 8 . 
-        e 2 4 5 2 2 6 7 7 6 2 7 7 6 . . 
-        e 2 4 4 2 2 6 7 6 2 2 6 7 7 6 . 
-        e 2 4 2 2 2 6 6 2 2 2 e 7 7 6 . 
-        e 2 4 2 2 4 2 2 2 4 2 2 e 7 6 . 
-        e 2 4 2 2 2 2 2 2 2 2 2 e c 6 . 
-        e 2 2 2 2 2 2 2 4 e 2 e e c . . 
-        e e 2 e 2 2 4 2 2 e e e c . . . 
-        e e e e 2 e 2 2 e e e c . . . . 
-        e e e 2 e e c e c c c . . . . . 
-        . c c c c c c c . . . . . . . . 
+        . . . . . . . 7 . . . . . . . . 
+        . . . . . . 8 7 7 . . . 6 8 . . 
+        . . . 7 7 7 8 8 7 7 . 6 7 8 . . 
+        . . e 7 7 7 7 e 8 7 7 7 6 . . . 
+        . e 7 7 4 4 7 7 7 7 7 7 8 6 . . 
+        . e 7 4 4 3 6 7 7 7 6 7 6 8 8 . 
+        3 3 4 5 3 3 6 7 7 6 3 7 7 6 . . 
+        3 3 4 4 3 3 6 7 6 3 3 6 7 7 7 . 
+        3 3 4 3 3 3 6 6 3 3 3 e 7 7 7 . 
+        3 3 4 3 3 4 3 3 3 4 3 3 3 7 7 . 
+        3 3 4 3 3 3 3 3 3 3 3 3 3 7 7 . 
+        3 3 3 3 3 3 3 3 4 3 3 3 3 7 . . 
+        3 3 3 3 3 3 4 3 3 3 3 3 c . . . 
+        3 3 3 3 3 7 3 3 3 3 3 c . . . . 
+        3 3 3 2 7 7 7 e 7 7 7 . . . . . 
+        . 7 7 7 7 7 7 7 . . . . . . . . 
         `, 50, 50)
+    projectile2 = sprites.createProjectileFromSprite(img`
+        . . . . . . . . . . . . . . . . 
+        . . . . . . 4 4 4 4 . . . . . . 
+        . . . . 4 4 4 5 5 4 4 4 . . . . 
+        . . . 3 3 3 3 4 4 4 4 4 4 . . . 
+        . . 4 3 3 3 3 2 2 2 1 1 4 4 . . 
+        . . 3 3 3 3 3 2 2 2 1 1 5 4 . . 
+        . 4 3 3 3 3 2 2 2 2 2 5 5 4 4 . 
+        . 4 3 3 3 2 2 2 4 4 4 4 5 4 4 . 
+        . 4 4 3 3 2 2 4 4 4 4 4 4 4 4 . 
+        . 4 2 3 3 2 2 4 4 4 4 4 4 4 4 . 
+        . . 4 2 3 3 2 4 4 4 4 4 2 4 . . 
+        . . 4 2 2 3 2 2 4 4 4 2 4 4 . . 
+        . . . 4 2 2 2 2 2 2 2 2 4 . . . 
+        . . . . 4 4 2 2 2 2 4 4 . . . . 
+        . . . . . . 4 4 4 4 . . . . . . 
+        . . . . . . . . . . . . . . . . 
+        `, mySprite, 50, 50)
 })
