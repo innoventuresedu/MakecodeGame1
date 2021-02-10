@@ -49,20 +49,20 @@ b555115dddd55d544eede...........
 41554eede.......................
 44ee...4e.......................
 `</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image2"}}</data></block></value><value name="kind"><shadow type="spritekind" id="ziSuExOyncFOanh]qRgk"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="ri)z2TmzBK2=28!HtE_P"><field name="VAR" id="?|tA=6+hkc`wjpn~#YFs">mySprite2</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="dYYN`Q_;T~,hYEZN[GI#"><value name="img"><shadow type="screen_image_picker" id="nB+C|=3@U](dj[B^OR08"><field name="img">img`
-. . . . . . . . . . b 5 b . . . 
-. . . . . . . . . b 5 b . . . . 
-. . . . . . b b b b b b . . . . 
-. . . . . b b 5 5 5 5 5 b . . . 
-. . . . b b 5 d 1 f 5 5 d f . . 
-. . . . b 5 5 1 f f 5 d 4 c . . 
-. . . . b 5 5 d f b d d 4 4 . . 
-. b b b d 5 5 5 5 5 4 4 4 4 4 b 
-b d d d b b d 5 5 4 4 4 4 4 b . 
-b b d 5 5 5 b 5 5 5 5 5 5 b . . 
-c d c 5 5 5 5 d 5 5 5 5 5 5 b . 
-c b d c d 5 5 b 5 5 5 5 5 5 b . 
-. c d d c c b d 5 5 5 5 5 d b . 
-. . c b d d d d d 5 5 5 b b . . 
-. . . c c c c c c c c b b . . . 
-. . . . . . . . . . . . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="lJs9NP?hV_yT-tSHT}%W"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block></xml>
+. . 3 . . . . . . . . . . . . . 
+. . . 3 . . . . . . . . . . . . 
+. . . 3 3 . . . . . . . . . . . 
+. . . 3 3 . . . . . . . . . . . 
+. . . . 3 3 . . . . . . . . . . 
+. . . . . 3 3 . . . . . . . . . 
+. . . . . 3 3 . . . . . . . . . 
+. . . . . 3 3 3 . . . . . . . . 
+. . . 3 3 3 3 3 . . . . . . . . 
+. . . 3 3 3 3 3 . . . . . . . . 
+. . . 3 3 3 3 3 3 . . . . . . . 
+. . . . 3 3 3 3 3 . . . . . . . 
+. . . . . . . . 3 3 . . . . . . 
+. . . . . . . . . 3 3 . . . . . 
+. . . . . . . . . . 3 3 . . . . 
+. . . . . . . . . . . 3 3 . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="lJs9NP?hV_yT-tSHT}%W"><field name="MEMBER">Enemy</field></shadow></value></block></value></block></next></block></statement></block></xml>
